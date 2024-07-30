@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');*/
+/*@font-face {*/
+/*  font-family: 'ProggyClean'; /* Name your font family */*/
+/*  src: url('fonts/ProggyClean/ProggyCleanNerdFont-Regular.ttf');*/
+/* /* Locate the .ttf file within your directory*/*/
+/*} */
 * {
    margin: 0;
    padding: 0;
 }
 html {
   font-family: "JetBrains Mono", monospace;
+  
 }
 
 body {
@@ -13,6 +18,7 @@ body {
   display: flex;
   flex-direction: column; 
   justify-content: center;
+  
 
  
 
@@ -20,11 +26,8 @@ body {
 
 .img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 17%; 
+  margin: 30px 45%;
   width: 40%;
-  margin-bottom: 0px;
   
 }
 .Bookmarks {
@@ -44,7 +47,7 @@ body {
   background-color: #1f1d2e;
   width: 13%;
   text-align: center;
-  margin: 0px 35px;
+  margin: 30px 35px 10px 35px;
   border: 1px solid #191724;
   box-shadow: 10px 10px  #191724;
   
@@ -57,12 +60,12 @@ ul {
 
 h2 {
   color: #eb6f92;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 a {
   color: #31748f;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
 }
 
