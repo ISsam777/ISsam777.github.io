@@ -18,16 +18,22 @@ body {
   display: flex;
   flex-direction: column; 
   justify-content: center;
-  
-
- 
 
 }
 
-.img {
+ h1 {
+   font-size: 50px;
+   color: #ebbcba;
+   line-height: 4;
+  
+ }
+img {
   display: block;
-  margin: 30px 45%;
-  width: 40%;
+  margin: 200px auto 90px auto;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+
   
 }
 .Bookmarks {
@@ -35,7 +41,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 60px 0;
+  margin:  0;
 } 
  
  
@@ -47,9 +53,9 @@ body {
   background-color: #1f1d2e;
   width: 13%;
   text-align: center;
-  margin: 30px 35px 10px 35px;
+  margin: 0px 35px 0 35px;
   border: 1px solid #191724;
-  box-shadow: 10px 10px  #191724;
+  box-shadow: 4px 4px 4px #191724;
   
 }
 ul {
