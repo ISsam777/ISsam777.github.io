@@ -1,68 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-
+* {
+   margin: 0;
+   padding: 0;
+}
 html {
   font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: #1f1d2e;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+
+ 
+
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 17%; 
+  width: 40%;
+  margin-bottom: 0px;
   
 }
- * {
-   * margin: 0;
-   * display: flex;
-   * flex-direction: column;
-   * }
-
- body {
-   display: flex;
-    background-color: #ffffff;
-    flex-direction: column;
-   
- }
- .container {
-   display: flex;
-   flex-direction: column;
-   background-color: #f9f9fa;
-   margin: 20px 40px;
-   padding:  0 30px 0 30px 0;
- }
- .text {
-   display: flex;
-   flex-direction: column;
-   margin: 10px 10px; 
- }
-
-
-.firefox {
-  margin: 10px auto 0 auto;
-  width: 10%;
-}
-
-h1 {
-  text-align: center;
-  margin: 0;
-  margin-top: 30px;
-
-}
-
- a {
-  text-decoration: none;
-  color: #007ffc;
-}
-
-h3 {
-  margin: 0;
-}
-
-footer {
-  margin-left:45px;
+.Bookmarks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+} 
  
+ 
+
+
+
+.List {
+  padding: 10px 5px;
+  background-color: #1f1d2e;
+  width: 13%;
+  text-align: center;
+  margin: 0px 35px;
+  border: 1px solid #191724;
+  box-shadow: 10px 10px  #191724;
+  
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  line-height: 300%;
 }
 
-.mozilla {
- width:100px;
+h2 {
+  color: #eb6f92;
+  font-size: 35px;
 }
 
-h4 {
-  line-height: 2;
+a {
+  color: #31748f;
+  font-size: 25px;
+  text-decoration: none;
 }
 
+a:hover {
+  color: #ebbcba;
+  text-decoration: underline;
+  transition:0.1s;
+  
+}
+
+hr {
+  color: #31748f;
+  width: 90%;
+  margin: 0px 5% 0px 5%;
+  
+}
 
