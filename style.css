@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');*/
-/*@font-face {*/
-/*  font-family: 'ProggyClean'; /* Name your font family */*/
-/*  src: url('fonts/ProggyClean/ProggyCleanNerdFont-Regular.ttf');*/
-/* /* Locate the .ttf file within your directory*/*/
-/*} */
+
 * {
    margin: 0;
    padding: 0;
@@ -21,12 +17,7 @@ body {
 
 }
 
- h1 {
-   font-size: 50px;
-   color: #ebbcba;
-   line-height: 4;
-  
- }
+
 img {
   display: block;
   margin: 180px auto 70px auto;
@@ -40,7 +31,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+
   margin:  0;
 } 
  
@@ -49,29 +40,33 @@ img {
 
 
 .List {
-  padding: 10px 5px;
   background-color: #1f1d2e;
   width: 13%;
+  height: 50%;
   text-align: center;
-  margin: 0px 35px 0 35px;
-  border: 1px solid #191724;
-  box-shadow: 4px 4px 4px #191724;
+  margin: 0px 35px;
+  box-shadow: 0px 0px 10px 3px #191724;
   
 }
 ul {
-  text-align: center;
+  text-align: center; 
   list-style-type: none;
   line-height: 300%;
+}
+li {
+  text-align: center;
 }
 
 h2 {
   color: #eb6f92;
   font-size: 30px;
+  font-weight: 800;
 }
 
 a {
   color: #31748f;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 400;
   text-decoration: none;
 }
 
