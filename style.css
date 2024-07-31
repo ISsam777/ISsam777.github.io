@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');*/
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
 * {
    margin: 0;
    padding: 0;
@@ -14,11 +14,11 @@ body {
   display: flex;
   flex-direction: column; 
   justify-content: center;
-
+  
 }
 
 
-img {
+.img {
   display: block;
   margin: 180px auto 70px auto;
   width: 10%;
@@ -27,6 +27,7 @@ img {
 
   
 }
+
 .Bookmarks {
   display: flex;
   flex-direction: row;
@@ -40,12 +41,11 @@ img {
 
 
 .List {
-  background-color: #1f1d2e;
-  width: 13%;
+   width: 13%;
   height: 50%;
   text-align: center;
   margin: 0px 35px;
-  box-shadow: 0px 0px 10px 3px #191724;
+
   
 }
 ul {
@@ -58,29 +58,24 @@ li {
 }
 
 h2 {
+
   color: #eb6f92;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 200;
 }
 
 a {
-  color: #31748f;
-  font-size: 17px;
-  font-weight: 400;
+  color: #e0def4;
+  font-size: 20px;
+  font-weight: 200;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ebbcba;
+  color:#3e8fb0;
   text-decoration: underline;
   transition:0.1s;
   
 }
 
-hr {
-  color: #31748f;
-  width: 90%;
-  margin: 0px 5% 0px 5%;
-  
-}
 
