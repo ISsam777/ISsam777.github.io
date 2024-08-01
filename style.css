@@ -16,16 +16,45 @@ body {
   justify-content: center;
   
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 300%;
+  margin: 100px 0 50px 0;
+ }
 
+#date {
+
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ebbcba;
+  width: 33.3333%;
+}
 
 .img {
   display: block;
-  margin: 180px auto 70px auto;
+  margin: ;
   width: 10%;
   height: 10%;
   border-radius: 50%;
 
   
+}
+
+
+
+#clock {
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ebbcba;
+  width: 33.3333%;
 }
 
 .Bookmarks {

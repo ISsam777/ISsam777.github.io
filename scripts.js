@@ -1,35 +1,30 @@
-const myImage = document.querySelector("img");
+const weekdays = ["sunday", "monday", "tuesday", "wednesday", "thursday","friday","saturday"];
+function updateClock() {
+ const now = new Date();
 
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/New.png") {
-    myImage.setAttribute("src", "images/old.png");
-  } else {
-    myImage.setAttribute("src", "images/New.png");
-  }
-};
-
-let myHeading = document.querySelector("h1");
-let myButton = document.querySelector("button");
-
-function setUserName() { 
-    const myName = prompt("Please enter your name.");
-    localStorage.setItem("name", myName);
-    myHeading.textContent = 'Mozilla is cool, ${myName}';
-
+  const hours = now.getHours().toString().padStart(2,0);
+  const minutes = now.getMinutes().toString().padStart(2,0);
+  const seconds = now.getSeconds().toString().padStart(2,0);
+  const timeString = `${hours}:${minutes}`;
+  document.getElementById("clock").textContent = timeString;
+  
+  
 }
 
-if (!localStorage.getItem("name")) {
-  setUserName();
-} else {
-  const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Mozilla is cool, ${storedName}`;
+function fullDate() {
+  const now = new Date();
+  const year = now.getFullYear().toString().padStart(4,0);
+  const month = now.getMonth().toString().padStart(2,0);
+  const week = now.getDay();
+  const day = now.getDate().toString().padStart(2,0);
+  const dateString = `${weekdays[week]} , ${year}-${month}-${day}`
+
+  document.getElementById("date").textContent = dateString;
+ 
 }
-myButton.onclick = () => {
-  setUserName();
-};
-
-
+fullDate();
+updateClock();
+setInterval(updateClock,1000);
 
 
 
